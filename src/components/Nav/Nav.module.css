@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 30px;
+    position: sticky;
+}
+
+.nav{
+   display: flex;
+   width: 100%;
+   align-items: center;
+
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+    font-family: 'PT Mono', monospace;
+    font-size: 13px;
+}
+
+.menu li a:hover{
+    color: var(--light-blue);
+}
+
+.menu li{
+    padding: 10px 20px ;
+}
+
+.number{
+    color: var(--light-blue) ;
+}
+
+.logo{
+    margin-right: auto;
+}

@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
 html,
 body {
-  padding: 0;
-  margin: 0;
+ 
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -13,4 +14,19 @@ a {
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+:root {
+  --text-color: #a8b9ef;
+  --bg: #0d1726;
+  --light-blue: #75daff;
+  --green-tint: rgba(100,255,218,0.1);
+}
+
+
+body{
+  background-color: var(--bg);
 }
