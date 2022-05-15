@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 
-html,
-body {
- 
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+:root {
+  --bg: #0d1726;
+  --light-blue: #75daff;
+  --green-tint: rgba(100,255,218,0.1);
+  --slate: #8892b0;
+  --light-slate: #a8b2d1;
+  --lightest-slate: #ccd6f6;
+  --navy: #0a192f;
+  --light-navy: #112240;
+  --lightest-navy: #233554;
 
-a {
-  color: inherit;
-  text-decoration: none;
+  --font-mono: 'PT Mono', monospace;
 }
 
 * {
@@ -19,14 +21,16 @@ a {
 }
 
 
-:root {
-  --text-color: #a8b9ef;
-  --bg: #0d1726;
-  --light-blue: #75daff;
-  --green-tint: rgba(100,255,218,0.1);
+html,
+body {
+  scroll-behavior: smooth;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: var(--bg);
+
 }
 
-
-body{
-  background-color: var(--bg);
+a {
+  color: inherit;
+  text-decoration: none;
 }

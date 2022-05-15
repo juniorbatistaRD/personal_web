@@ -12,18 +12,19 @@ export default function Nav() {
         </div>
         <ul className={styles.menu}>
           <li>
-            <span className={styles.number}>01.</span>{" "}
+            <span className={styles.number}>01.</span>
             <a href="#about">About</a>
           </li>
           <li>
-            <span className={styles.number}>02.</span>{" "}
+            <span className={styles.number}>02.</span>
             <a href="#experience">Experience</a>
           </li>
           <li>
-            <span className={styles.number}>03.</span> <a href="#work">Work</a>
+            <span className={styles.number}>03.</span>
+            <a href="#work">Work</a>
           </li>
           <li>
-            <span className={styles.number}>04.</span>{" "}
+            <span className={styles.number}>04.</span>
             <a href="#contact">Contact</a>
           </li>
         </ul>

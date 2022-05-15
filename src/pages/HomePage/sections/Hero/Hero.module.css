@@ -1,0 +1,45 @@
+.container{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    flex-direction: column;
+    margin: 0px auto;
+    max-width: 1000px;
+}
+
+.pre{
+    font-family: var(--font-mono);
+    color: var(--light-blue);
+    font-size: 14px;
+    margin-bottom: 20px ;
+}
+
+.name{
+    font-size: 70px;
+    color: var(--lightest-slate);
+    line-height: 0.9;
+    margin-bottom: 20px;
+}
+
+.slogan{
+    font-size: 70px;
+    color: var(--slate);
+    line-height: 0.9;
+    margin-bottom: 40px;
+
+}
+
+.text{
+    font-size: 18px;
+    color:var(--slate);
+    max-width: 570px;
+    margin-bottom: 40px;
+
+}
+
+.action{
+    font-size: 14px;
+    padding: 20px;
+    
+}

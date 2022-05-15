@@ -4,7 +4,12 @@
     align-items: center;
     justify-content: center;
     padding: 0px 30px;
-    position: sticky;
+    position: fixed;
+    width: 100%;
+    background-color: #0d1726ea;
+    backdrop-filter: blur(2px);
+    z-index: 1000;
+
 }
 
 .nav{
@@ -18,7 +23,7 @@
     list-style: none;
     display: flex;
     align-items: center;
-    color: var(--text-color);
+    color: var(--light-slate);
     font-family: 'PT Mono', monospace;
     font-size: 13px;
 }

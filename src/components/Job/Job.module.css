@@ -1,0 +1,35 @@
+.container{
+    max-width: 600px;
+    margin-bottom: 50px;
+}
+
+.position{
+    color: var(--lightest-slate);
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.place{
+    color: var(--light-blue);
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.dates{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color: var(--light-slate);
+    font-family: var(--font-mono);
+    font-size: 13px;
+}
+
+.list{
+    font-size: 17px;
+    color: var(--slate);
+    list-style: none;
+}
+
+.list li{
+    margin-bottom: 10px;
+    
+}
