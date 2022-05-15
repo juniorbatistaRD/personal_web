@@ -5,6 +5,8 @@ import About from "./sections/About/About";
 import Experience from "./sections/Experience/Experience";
 import Work from "./sections/Work/Work";
 import Contact from "./sections/Contact/Contact";
+import LanguageSwitcher from "@components/LanguageSwitcher/LanguageSwitcher";
+import Socials from "@components/Socials/Socials";
 
 export default function HomePage() {
   return (
@@ -16,6 +18,11 @@ export default function HomePage() {
         <Experience />
         <Work />
         <Contact />
+        <Socials />
+        <LanguageSwitcher />
+        <footer className={styles.footer}>
+          <p className={styles.credits}>Built by Junior Batista</p>
+        </footer>
       </main>
     </div>
   );

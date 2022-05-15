@@ -14,7 +14,7 @@ export default function Work() {
         <FeaturedProject
           name="GenteUni - Social Network"
           description="A fully developed social network targerted for college students in Latin America, the web app includes fully complete posting, following, commenting system. With multiple other features as schools ranking, social login and job posting."
-          tags={["Next.js", "Parse Server", "Javascript", "Social Network"]}
+          tags={["Next.js", "Parse Server", "Formik", "Social Network"]}
           repo="https://github.com/juniorbatistaRD/genteitla"
           link="https://genteuni-next.vercel.app/"
           image={genteUniImg.src}

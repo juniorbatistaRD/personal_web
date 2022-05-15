@@ -1,0 +1,37 @@
+.container{
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: auto;
+    right: 40px;
+    z-index: 10;
+}
+
+.list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.list li:last-of-type{
+    margin-bottom: 20px;
+}
+
+
+.list::after{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin: 0px auto;
+    background-color: var(--light-slate);
+}
+
+.list svg{
+    fill:var(--slate);
+    margin-bottom: 10px;
+    width: 20px;
+    height: 20px;
+}
+

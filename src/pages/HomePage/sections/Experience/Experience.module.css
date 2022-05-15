@@ -6,6 +6,7 @@
     flex-direction: column;
     margin: 0px auto;
     max-width: 800px;
+    padding-top: 100px;
 }
 
 .experiences{
@@ -15,5 +16,5 @@
 
 .line{
     width: 40px;
-    border-left: 2px solid beige;
+    border-left: 1px solid var(--slate);
 }

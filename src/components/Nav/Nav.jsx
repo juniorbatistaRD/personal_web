@@ -1,6 +1,5 @@
-import Image from "next/image";
 import styles from "./Nav.module.css";
-import icon from "@assets/icons/logo.svg";
+import Icon from "@assets/icons/logo.svg";
 import Button from "@components/Button/Button";
 
 export default function Nav() {
@@ -8,7 +7,7 @@ export default function Nav() {
     <header className={styles.header}>
       <nav className={styles.nav}>
         <div className={styles.logo}>
-          <Image src={icon} width={60} height={60} />
+          <Icon width={60} height={60} />
         </div>
         <ul className={styles.menu}>
           <li>

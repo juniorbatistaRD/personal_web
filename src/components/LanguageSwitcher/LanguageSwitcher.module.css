@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: 40px;
+    right: auto;
+    z-index: 10;
+    background: var(--light-navy);
+    width: fit-content;
+    padding: 10px 20px;
+    box-shadow: 0 10px 30px -15px var(--navy-shadow);
+}
+
+.language{
+    font-family: var(--font-mono);
+    color: var(--slate );
+    font-size: 14px;
+}
+
+.activeLanguage{
+    margin-bottom: 3px;
+
+    font-family: var(--font-mono);
+    color: var(--light-blue);
+    font-size: 14px;
+
+}
+
