@@ -7,8 +7,12 @@ import Work from "./sections/Work/Work";
 import Contact from "./sections/Contact/Contact";
 import LanguageSwitcher from "@components/LanguageSwitcher/LanguageSwitcher";
 import Socials from "@components/Socials/Socials";
+import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 export default function HomePage() {
+  const t = useTranslations("common");
+
   return (
     <div>
       <Nav />
@@ -18,10 +22,16 @@ export default function HomePage() {
         <Experience />
         <Work />
         <Contact />
-        <Socials />
-        <LanguageSwitcher />
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 1.9 }}
+        >
+          <Socials />
+          <LanguageSwitcher />
+        </motion.div>
         <footer className={styles.footer}>
-          <p className={styles.credits}>Built by Junior Batista</p>
+          <p className={styles.credits}>{t("built")}</p>
         </footer>
       </main>
     </div>

@@ -1,38 +1,48 @@
 import Job from "@components/Job/Job";
 import SectionTitle from "@components/SectionTitle/SectionTitle";
+import { motion } from "framer-motion";
 import styles from "./Experience.module.css";
+import { useTranslations } from "next-intl";
 
 export default function Experience() {
+  const t = useTranslations("Experience");
+
   return (
-    <section className={styles.container} id="experience">
-      <div></div>
-      <SectionTitle number="02." title="Where I've Worked" />
+    <motion.section
+      className={styles.container}
+      id="experience"
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true }}
+      transition={{ duration: 1 }}
+    >
+      <SectionTitle number="02." title={t("title")} />
       <div className={styles.experiences}>
         <div className={styles.line}></div>
         <div>
           <Job
-            position="Frontend Web Developer"
+            position={t("FrontEndDev")}
             place={{ name: "BRINF LLC", website: "https://brinf.net/" }}
-            dates="Jan 2021 - Apr 2021"
-            description="Worked with a team of a other developer and designer together with a project manager to create modern web apps for clients. Developed the core features of the app, refined code, and improved processes, producing smoother operations and enhancing user engagement"
+            dates={t("FrontEndDevDates")}
+            description={t("FrontEndDevDes")}
           />
           <Job
-            position="Back End Development Teacher"
+            position={t("BackEndTeacher")}
             place={{ name: "ITLA", website: "https://www.itla.edu.do/" }}
-            dates="Aug 2018 - Dec 2018"
-            description="Taught two web development classes ( Backend Development with PHP and SQL and Web Development with ASP.net). I planned the class schedule, homework and final project and graded the students."
+            dates={t("BackEndTeacherDates")}
+            description={t("BackEndTeacherDes")}
           />
           <Job
-            position="Webmaster"
+            position={t("WebMaster")}
             place={{
-              name: "YWAM San Pedro",
+              name: t("YWAMSP"),
               website: "https://ywamsanpedro.org",
             }}
             dates="2017"
-            description="Monitored website functionality across leading web browsers and mobile applications, and ensured compatibility with major operating systems. Researched market trends to keep up with best practices in SEO, social media promotion, search analytics, and web hosting."
+            description={t("WebMasterDes")}
           />
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }

@@ -54,5 +54,29 @@
 
 .profile{
     border-radius: 5px;
+    z-index: 1;
 }
 
+.imageContainer{
+    position: relative;
+    height: fit-content;
+}
+
+
+ .wrap:hover::after{
+    top: 40px;
+    left: 20px;
+ }
+
+ .wrap::after{
+    transition: all 0.2s;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    border: 2px solid var(--light-blue);
+    top: 50px;
+    left: 30px;
+    border-radius: 4px;
+ }

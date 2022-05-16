@@ -28,6 +28,9 @@
     background-color: var(--light-slate);
 }
 
+.list svg:hover{
+    fill: var(--light-blue);
+}
 .list svg{
     fill:var(--slate);
     margin-bottom: 10px;
