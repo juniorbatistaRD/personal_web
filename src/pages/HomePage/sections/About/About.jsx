@@ -38,6 +38,7 @@ export default function About() {
             className={styles.wrap}
           >
             <Image
+              alt="Profile Picture of Junior Batista"
               src={image}
               width={350}
               height={350}

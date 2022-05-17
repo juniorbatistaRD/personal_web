@@ -31,12 +31,12 @@ export default function NormalProject({ name, description, tags, repo, link }) {
         </svg>
         <div className={styles.links}>
           {repo && (
-            <a href={repo} target="_blank">
+            <a href={repo} target="_blank" rel="noreferrer">
               <GithubIcon />
             </a>
           )}
           {link && (
-            <a href={link} target="_blank">
+            <a href={link} target="_blank" rel="noreferrer">
               <LinkIcon />
             </a>
           )}

@@ -9,7 +9,11 @@ export default function Socials() {
     <div className={styles.container}>
       <ul className={styles.list}>
         <li>
-          <a href="https://github.com/juniorbatistaRD" target="_blank">
+          <a
+            href="https://github.com/juniorbatistaRD"
+            target="_blank"
+            rel="noreferrer"
+          >
             <GithubIcon />
           </a>
         </li>
@@ -17,17 +21,26 @@ export default function Socials() {
           <a
             href="https://www.linkedin.com/in/juniorbatistadev/"
             target="_blank"
+            rel="noreferrer"
           >
             <LinkedinIcon />
           </a>
         </li>
         <li>
-          <a href="https://www.instagram.com/juniorbatistard" target="_blank">
+          <a
+            href="https://www.instagram.com/juniorbatistard"
+            target="_blank"
+            rel="noreferrer"
+          >
             <InstagramIcon />
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/juniorthedev" target="_blank">
+          <a
+            href="https://twitter.com/juniorthedev"
+            target="_blank"
+            rel="noreferrer"
+          >
             <TwitterIcon />
           </a>
         </li>

@@ -24,22 +24,22 @@ export default function FeaturedProject({
         <p className={styles.name}>{name}</p>
         <p className={styles.description}>{description}</p>
         <ul className={styles.tags}>
-          {tags.map((tag) => (
-            <li>{tag}</li>
+          {tags.map((tag, index) => (
+            <li key={index}>{tag}</li>
           ))}
         </ul>
         <div className={styles.externals}>
-          <a href={repo} target="_blank">
+          <a href={repo} target="_blank" rel="noreferrer">
             <GithubIcon />
           </a>
-          <a href={link} target="_blank">
+          <a href={link} target="_blank" rel="noreferrer">
             <LinkIcon />
           </a>
         </div>
       </div>
       <div className={styles.image}>
-        <a href={link ? link : repo} target="_blank">
-          <img src={image} />
+        <a href={link ? link : repo} target="_blank" rel="noreferrer">
+          <img src={image} alt="Featured project" />
         </a>
       </div>
     </motion.div>
