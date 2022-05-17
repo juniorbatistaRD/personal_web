@@ -14,3 +14,11 @@
     justify-content: center;
     height: 50px;
 }
+
+
+@media (max-width: 768px){
+    .content{
+        padding: 0px 25px;
+        width: 100%;
+    }
+}

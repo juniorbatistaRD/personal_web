@@ -26,3 +26,21 @@
     margin-left: 20px;
     background-color: var(--lightest-navy);
 }
+
+
+@media (max-width: 768px){
+    .container{
+        width: 100%;
+    }
+
+    .title{
+        width: 100%;
+        font-size: 24px;
+        white-space: nowrap;
+    }
+
+    .container::after {
+        margin-left: 5px;
+        max-width: 100%;
+    }
+}

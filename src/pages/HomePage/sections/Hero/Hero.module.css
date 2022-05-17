@@ -27,6 +27,7 @@
     color: var(--slate);
     line-height: 0.9;
     margin-bottom: 40px;
+    line-height: 0.9;
 
 }
 
@@ -42,4 +43,28 @@
     font-size: 14px;
     padding: 20px;
     
+}
+
+
+@media (max-width: 768px){
+    .container{
+        padding-bottom: 7vh;
+    }
+
+    .name{
+        font-size: 35px;
+    }
+
+    .slogan{
+        font-size: 35px;
+    }
+
+    .container{
+        max-width: 100%;
+    }
+    .text{
+       
+        margin-bottom: 60px;
+    
+    }
 }

@@ -80,3 +80,14 @@
     left: 30px;
     border-radius: 4px;
  }
+
+ @media (max-width: 768px){
+    .inner{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text{
+        font-size: 17px;
+    }
+}

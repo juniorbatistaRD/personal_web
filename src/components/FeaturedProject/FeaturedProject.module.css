@@ -76,3 +76,34 @@
     margin-left: 15px;
     fill: var(--slate);
 }
+
+@media (max-width: 768px){
+    .container{
+        padding: 20px;
+       background-color: var(--light-navy);
+       display: flex;
+       flex-direction: column;
+     }
+
+     .description{
+        box-shadow: none;
+        z-index: 1;
+        padding: 0px;
+        border-radius:0px;
+        background-color: none;
+        color: var(--light-slate);
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .tags{
+        width: 100%;
+        
+    }
+
+     .image{
+         margin-top: 10px;
+         width: 250px;
+     }
+}
