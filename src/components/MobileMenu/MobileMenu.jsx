@@ -57,8 +57,8 @@ export default function MobileMenu() {
           <g
             fill="none"
             stroke="#75daff"
-            stroke-linecap="round"
-            stroke-width="1.432"
+            strokeLinecap="round"
+            strokewidth="1.432"
           >
             <motion.path
               animate={controls}
