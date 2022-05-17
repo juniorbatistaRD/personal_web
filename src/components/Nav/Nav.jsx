@@ -3,6 +3,7 @@ import Icon from "@assets/icons/logo.svg";
 import Button from "@components/Button/Button";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
+import MobileMenu from "@components/MobileMenu/MobileMenu";
 
 export default function Nav() {
   const t = useTranslations("Nav");
@@ -34,6 +35,7 @@ export default function Nav() {
         <div className={styles.logo}>
           <Icon width={60} height={60} />
         </div>
+        <MobileMenu />
         <nav className={styles.nav}>
           <motion.ul
             initial="hidden"
