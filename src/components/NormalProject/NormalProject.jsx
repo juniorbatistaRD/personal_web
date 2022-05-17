@@ -45,8 +45,8 @@ export default function NormalProject({ name, description, tags, repo, link }) {
       <p className={styles.workname}>{name}</p>
       <p className={styles.description}>{description}</p>
       <ul className={styles.tags}>
-        {tags.map((tag) => (
-          <li>{tag}</li>
+        {tags.map((tag, index) => (
+          <li key={index}>{tag}</li>
         ))}
       </ul>
     </motion.li>
