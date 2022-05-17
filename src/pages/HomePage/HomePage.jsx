@@ -1,4 +1,4 @@
-import Nav from "@components/Nav/nav";
+import Nav from "@components/Nav/Nav";
 import Hero from "./sections/Hero/Hero";
 import styles from "./HomePage.module.css";
 import About from "./sections/About/About";
