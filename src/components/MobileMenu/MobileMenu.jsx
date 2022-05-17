@@ -1,11 +1,10 @@
 import styles from "./MobileMenu.module.css";
-import MenuIcon from "@assets/icons/menu.svg";
 import { useTranslations } from "next-intl";
 import Button from "@components/Button/Button";
 import { motion, useAnimation } from "framer-motion";
 import { useState } from "react";
 
-export default function MobileMenu({ position, place, dates, description }) {
+export default function MobileMenu() {
   const t = useTranslations("Nav");
   const [isOpen, setIsOpen] = useState(false);
   const controls = useAnimation();
@@ -48,7 +47,13 @@ export default function MobileMenu({ position, place, dates, description }) {
   return (
     <div className={styles.container}>
       <div className={styles.topIcon} onClick={handleMenuClick}>
-        <svg width="32" height="32" version="1.1" viewBox="0 0 16.933 16.933">
+        <svg
+          width="32"
+          height="32"
+          version="1.1"
+          viewBox="0 0 16.933 16.933"
+          className={styles.menuIcon}
+        >
           <g
             fill="none"
             stroke="#75daff"
