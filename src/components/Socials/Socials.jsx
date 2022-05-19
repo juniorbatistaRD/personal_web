@@ -10,7 +10,7 @@ export default function Socials() {
       <ul className={styles.list}>
         <li>
           <a
-            href="https://github.com/juniorbatistaRD"
+            href="https://github.com/juniorbatistadev"
             target="_blank"
             rel="noreferrer"
             aria-label="Github Icon"
