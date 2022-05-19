@@ -13,6 +13,7 @@ export default function Socials() {
             href="https://github.com/juniorbatistaRD"
             target="_blank"
             rel="noreferrer"
+            aria-label="Github Icon"
           >
             <GithubIcon />
           </a>
@@ -22,6 +23,7 @@ export default function Socials() {
             href="https://www.linkedin.com/in/juniorbatistadev/"
             target="_blank"
             rel="noreferrer"
+            aria-label="Linkedin"
           >
             <LinkedinIcon />
           </a>
@@ -31,6 +33,7 @@ export default function Socials() {
             href="https://www.instagram.com/juniorbatistard"
             target="_blank"
             rel="noreferrer"
+            aria-label="Instagram"
           >
             <InstagramIcon />
           </a>
@@ -40,6 +43,7 @@ export default function Socials() {
             href="https://twitter.com/juniorthedev"
             target="_blank"
             rel="noreferrer"
+            aria-label="Twitter"
           >
             <TwitterIcon />
           </a>
