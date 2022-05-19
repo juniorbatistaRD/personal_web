@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import MobileMenu from "@components/MobileMenu/MobileMenu";
 import useScrollPosition from "src/hooks/useScrollPosition";
+import Link from "next/link";
 
 export default function Nav() {
   const t = useTranslations("Nav");
@@ -52,19 +53,27 @@ export default function Nav() {
           >
             <motion.li variants={item}>
               <span className={styles.number}>01.</span>
-              <a href="/#about">{t("about")}</a>
+              <Link href="/#about">
+                <a>{t("about")}</a>
+              </Link>
             </motion.li>
             <motion.li variants={item}>
               <span className={styles.number}>02.</span>
-              <a href="/#experience">{t("experience")}</a>
+              <Link href={"/#experience"}>
+                <a>{t("experience")}</a>
+              </Link>
             </motion.li>
             <motion.li variants={item}>
               <span className={styles.number}>03.</span>
-              <a href="/#work">{t("work")}</a>
+              <Link href="/#work">
+                <a>{t("work")}</a>
+              </Link>
             </motion.li>
             <motion.li variants={item}>
               <span className={styles.number}>04.</span>
-              <a href="/#contact">{t("contact")}</a>
+              <Link href="/#contact">
+                <a>{t("contact")}</a>
+              </Link>
             </motion.li>
             <motion.li variants={item}>
               <Button link="/resume.pdf" target="_blank">
