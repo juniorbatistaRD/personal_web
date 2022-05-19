@@ -1,16 +1,15 @@
 import { useRouter } from "next/router";
 import styles from "./LanguageSwitcher.module.css";
 
-export default function LanguageSwitcher() {
+export default function LanguageSwitcher({ mobile }) {
   const { locale, pathname, asPath, query, push } = useRouter();
 
   const handleChange = (nextLocale) => {
     push({ pathname, query }, asPath, { locale: nextLocale });
   };
 
-  console.log(locale);
   return (
-    <div className={styles.container}>
+    <div className={mobile ? styles.mobileContainer : styles.container}>
       <span
         onClick={() => handleChange("en")}
         className={locale === "en" ? styles.activeLanguage : styles.language}

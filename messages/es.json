@@ -39,7 +39,7 @@
     },
 
     "Work":{
-        "title": "Algunas cosas que he creado",
+        "title": "Algunos Proyectos",
 
         "GenteUni":"GenteUni - Red Social",
         "GenteUniDes":"Una red social completamente desarrollada dirigida a estudiantes universitarios en América Latina, la aplicación web incluye un sistema completo de publicación, seguimiento y comentarios. Con muchas otras características como clasificación de escuelas, inicio de sesión social y publicación de trabajos.",
@@ -72,11 +72,17 @@
 
         "text":"Siempre estoy buscando nuevas oportunidades, por lo que mi bandeja de entrada siempre está abierta. Incluso si solo tienes una pregunta o solo quieres saludar, adelante. ¡Me aseguraré de responderte!",
         
-        "button":"Enviar correo a juniorabc77@gmail.com"
+        "button":"Enviar correo a juniorbatistadev@gmail.com"
+    },
+
+    "NoFound":{
+        "header":"¡Oh no! ¡Rompiste el Internet!",
+        "text":"No pudimos encontrar lo que busca. Intenta usando el menu."
     },
 
     "common":{
-        "built":"Hecho por Junior Batista"
+        "built":"Hecho por Junior Batista",
+        "goHome":"Ir al Inicio"
     }
 
 }

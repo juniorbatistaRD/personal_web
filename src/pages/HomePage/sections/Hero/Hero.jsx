@@ -17,7 +17,7 @@ export default function Hero() {
         initial="hidden"
         animate="visible"
         variants={fadeUp}
-        transition={{ duration: 0.5, delay: 0.9 }}
+        transition={{ duration: 0.5 }}
         className={styles.pre}
       >
         {t("name")}
@@ -26,7 +26,7 @@ export default function Hero() {
         initial="hidden"
         animate="visible"
         variants={fadeUp}
-        transition={{ duration: 0.5, delay: 1.1 }}
+        transition={{ duration: 0.5, delay: 0.1 }}
         className={styles.name}
       >
         Junior Batista
@@ -35,7 +35,7 @@ export default function Hero() {
         initial="hidden"
         animate="visible"
         variants={fadeUp}
-        transition={{ duration: 0.4, delay: 1.2 }}
+        transition={{ duration: 0.4, delay: 0.2 }}
         className={styles.slogan}
       >
         {t("slogan")}
@@ -44,7 +44,7 @@ export default function Hero() {
         initial="hidden"
         animate="visible"
         variants={fadeUp}
-        transition={{ duration: 0.4, delay: 1.3 }}
+        transition={{ duration: 0.4, delay: 0.3 }}
         className={styles.text}
       >
         {t("summary")}
@@ -53,7 +53,7 @@ export default function Hero() {
         initial="hidden"
         animate="visible"
         variants={fadeUp}
-        transition={{ duration: 0.5, delay: 1.4 }}
+        transition={{ duration: 0.5, delay: 0.4 }}
       >
         <Button className={styles.action} link="#contact">
           {t("callToAction")}

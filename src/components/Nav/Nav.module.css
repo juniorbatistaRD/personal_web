@@ -1,13 +1,13 @@
 .header{
     display: flex;
-    height: 100px;
+    height: 80px;
     align-items: center;
     justify-content: center;
     padding: 0px 30px;
     position: fixed;
     width: 100%;
     background-color: #0d1726ea;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(10px);
     z-index: 1000;
 
 }
@@ -44,6 +44,10 @@
 
 .logo{
     margin-right: auto;
+}
+
+.shadow{
+    box-shadow: 0 10px 30px -10px var(--navy-shadow);
 }
 
 @media (max-width: 768px){

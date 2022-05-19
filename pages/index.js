@@ -10,6 +10,15 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <link rel="icon" href="/favicon.ico" />
+        <link rel="manifest" href="/manifest.json" />
+        <link
+          href="/icons/icon-192x192.png"
+          rel="icon"
+          type="image/png"
+          sizes="192x192"
+        />
+        <link rel="apple-touch-icon" href="/icon.png"></link>
+        <meta name="theme-color" content="#75daff" />
       </Head>
       <HomePage />
     </div>

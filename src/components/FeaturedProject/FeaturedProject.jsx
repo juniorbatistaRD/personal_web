@@ -2,6 +2,7 @@ import styles from "./FeaturedProject.module.css";
 import GithubIcon from "@assets/icons/github.svg";
 import LinkIcon from "@assets/icons/link.svg";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function FeaturedProject({
   name,
@@ -29,17 +30,22 @@ export default function FeaturedProject({
           ))}
         </ul>
         <div className={styles.externals}>
-          <a href={repo} target="_blank" rel="noreferrer">
-            <GithubIcon />
+          <a href={repo} target="_blank" rel="noreferrer" aria-label="Github">
+            <GithubIcon alt="Github" />
           </a>
-          <a href={link} target="_blank" rel="noreferrer">
+          <a
+            href={link}
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Link Icon"
+          >
             <LinkIcon />
           </a>
         </div>
       </div>
       <div className={styles.image}>
         <a href={link ? link : repo} target="_blank" rel="noreferrer">
-          <img src={image} alt="Featured project" />
+          <Image src={image} alt="Featured project" width={350} height={200} />
         </a>
       </div>
     </motion.div>

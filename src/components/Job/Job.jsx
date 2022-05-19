@@ -6,7 +6,9 @@ export default function Job({ position, place, dates, description }) {
       <p>
         <span className={styles.position}> {position} </span>
         <a href={place.website} target="_blank" rel="noreferrer">
-          <span className={styles.place}>@ {place.name} </span>
+          <span className={styles.place}>
+            @ <span className={styles.placeText}>{place.name} </span>
+          </span>
         </a>
       </p>
       <p className={styles.dates}>{dates}</p>

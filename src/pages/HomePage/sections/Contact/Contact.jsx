@@ -20,7 +20,7 @@ export default function Contact() {
       <p className={styles.text}>{t("text")}</p>
       <Button
         className={styles.button}
-        link="mailto:juniorabc77@gmail.com"
+        link="mailto:juniorbatistadev@gmail.com"
         rel="noopener noreferrer"
         target="_blank"
       >

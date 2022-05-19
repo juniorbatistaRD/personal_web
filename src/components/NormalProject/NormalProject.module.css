@@ -3,7 +3,7 @@
     box-shadow: 0 10px 30px -15px var(--navy-shadow);
     border-radius: 4px;
     background-color: var(--light-navy);
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .workname{

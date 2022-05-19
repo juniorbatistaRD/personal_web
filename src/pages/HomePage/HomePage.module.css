@@ -2,19 +2,6 @@
     padding: 0px 150px;
 }
 
-.credits{
-    font-family: var(--font-mono);
-    font-size: 12px;
-    color: var(--slate);
-
-}   
-
-.footer{
-    display: flex;
-    justify-content: center;
-    height: 50px;
-}
-
 
 @media (max-width: 768px){
     .content{

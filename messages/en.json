@@ -16,9 +16,9 @@
 
     "About":{
         "about":"About me",
-        "p1":"Hello! My name is Junior and I enjoy building cool stuff for web. I've been interested on web development since I was fourteen when using HTML & CSS felt like magic!",
-        "p2":"To become the developer I wanted to be I enrolled in Institute Of Technology Of the Americas (ITLA), one of the most respected tech university in the Dominican Republic, for the dregree of Software Development.",
-        "p3":"After that I had the chance to work with multiple companies while being a freelancer.",
+        "p1":"Hello! My name is Junior and I enjoy building cool stuff for the web. Since I was fourteen, I've been interested in web development when using HTML & CSS felt like magic!",
+        "p2":"To become the developer I wanted to be, I enrolled in the Institute Of Technology Of the Americas (ITLA) for a degree in Software Development.",
+        "p3":"After that, I had the chance to work with multiple companies while being a freelancer.",
         "p4":"Here are a few technologies I’ve been working with recently:"
     },
 
@@ -27,7 +27,7 @@
         
         "FrontEndDev":"Frontend Web Developer",
         "FrontEndDevDates":"Jan 2021 - Apr 2021",
-        "FrontEndDevDes":"Worked with a team of a other developer and designer together with a project manager to create modern web apps for clients. Developed the core features of the app, refined code, and improved processes, producing smoother operations and enhancing user engagement",
+        "FrontEndDevDes":"Worked with a team of other developers and designers and a project manager to create modern web apps for clients. Developed the core features of the apps, refined code, and improved processes, producing smoother operations and enhancing user engagement.",
 
         "BackEndTeacher":"Back End Development Teacher",
         "BackEndTeacherDates":"Aug 2018 - Dec 2018",
@@ -43,13 +43,13 @@
         "title": "Some Things I’ve Built",
 
         "GenteUni":"GenteUni - Social Network",
-        "GenteUniDes":"A fully developed social network targerted for college students in Latin America, the web app includes fully complete posting, following, commenting system. With multiple other features as schools ranking, social login and job posting.",
+        "GenteUniDes":"A fully developed social network targeted at college students in Latin America, the web app includes a fully complete posting, following, and commenting system. With multiple other features such as school ranking, social login, and job posting",
         
         "BookHub":"Bookhub - Mobile App",
-        "BookHubDes":"BookHub is a simple and minimalist app to keep track of the books you read. The app is built as a PWA and then convert into a android app. The app is avalaible to download in Google Play.",
+        "BookHubDes":"BookHub is a simple and minimalist app to keep track of the books you read. The app is built as a PWA and then converted into an android app. The app is available to download on Google Play.",
 
         "HOH":"Homes of Hope Tracker",
-        "HOHDes":"A web app to track houses built by an NGO called Homes of Hope, this help them to keep track of where houses are built so they can come back and follow up with the families. "
+        "HOHDes":"A web app to track houses built by an NGO called Homes of Hope, helps them to keep track of where houses are built so they can come back and follow up with the families. "
         
     },
 
@@ -73,11 +73,17 @@
 
         "text":"I’m always looking for new opportunities so my inbox is always open. Even if you just have a question or just want to say hi, go ahead. I’ll make sure to get back to you!",
         
-        "button":"Email me at juniorabc77@gmail.com"
+        "button":"Email me at juniorbatistadev@gmail.com"
+    },
+
+    "NoFound":{
+        "header":"Oh no! You broke the internet!",
+        "text":"We couldn't find what you're looking for. Try using the navigation bar."
     },
 
     "common":{
-        "built":"Built by Junior Batista"
+        "built":"Built by Junior Batista",
+        "goHome":"Go Home"
     }
 
 

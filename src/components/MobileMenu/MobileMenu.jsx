@@ -1,8 +1,9 @@
 import styles from "./MobileMenu.module.css";
 import { useTranslations } from "next-intl";
 import Button from "@components/Button/Button";
-import { motion, useAnimation } from "framer-motion";
+import { AnimatePresence, motion, useAnimation } from "framer-motion";
 import { useState } from "react";
+import LanguageSwitcher from "@components/LanguageSwitcher/LanguageSwitcher";
 
 export default function MobileMenu() {
   const t = useTranslations("Nav");
@@ -58,7 +59,7 @@ export default function MobileMenu() {
             fill="none"
             stroke="#75daff"
             strokeLinecap="round"
-            strokewidth="1.432"
+            strokeWidth="1.432"
           >
             <motion.path
               animate={controls}
@@ -79,39 +80,53 @@ export default function MobileMenu() {
           </g>
         </svg>
       </div>
-      {isOpen && (
-        <motion.aside
-          className={styles.mobileNav}
-          initial={{ x: 300 }}
-          animate={{ x: 0 }}
-        >
-          <nav>
-            <ul className={styles.menu}>
-              <li>
-                <span className={styles.number}>01.</span>
-                <a href="#about">{t("about")}</a>
-              </li>
-              <li>
-                <span className={styles.number}>02.</span>
-                <a href="#experience">{t("experience")}</a>
-              </li>
-              <li>
-                <span className={styles.number}>03.</span>
-                <a href="#work">{t("work")}</a>
-              </li>
-              <li>
-                <span className={styles.number}>04.</span>
-                <a href="#contact">{t("contact")}</a>
-              </li>
-              <li>
-                <Button link="/resume.pdf" target="_blank">
-                  {t("resume")}
-                </Button>
-              </li>
-            </ul>
-          </nav>
-        </motion.aside>
-      )}
+      <AnimatePresence>
+        {" "}
+        {isOpen && (
+          <motion.div
+            className={styles.asideContainer}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.2 }}
+            exit={{ opacity: 0 }}
+          >
+            <motion.aside
+              className={styles.mobileNav}
+              initial={{ x: 300 }}
+              animate={{ x: 0 }}
+              transition={{ ease: "easeOut", duration: 0.3 }}
+              exit={{ x: 300 }}
+            >
+              <nav>
+                <ul className={styles.menu}>
+                  <li>
+                    <span className={styles.number}>01.</span>
+                    <a href="/#about">{t("about")}</a>
+                  </li>
+                  <li>
+                    <span className={styles.number}>02.</span>
+                    <a href="/#experience">{t("experience")}</a>
+                  </li>
+                  <li>
+                    <span className={styles.number}>03.</span>
+                    <a href="/#work">{t("work")}</a>
+                  </li>
+                  <li>
+                    <span className={styles.number}>04.</span>
+                    <a href="/#contact">{t("contact")}</a>
+                  </li>
+                  <li>
+                    <Button link="/resume.pdf" target="_blank">
+                      {t("resume")}
+                    </Button>
+                  </li>
+                </ul>
+              </nav>
+              <LanguageSwitcher mobile={true} />
+            </motion.aside>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }

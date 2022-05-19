@@ -4,9 +4,16 @@ import Button from "@components/Button/Button";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 import MobileMenu from "@components/MobileMenu/MobileMenu";
+import useScrollPosition from "src/hooks/useScrollPosition";
 
 export default function Nav() {
   const t = useTranslations("Nav");
+  const scrollTop = useScrollPosition();
+
+  const headerClassNames = [
+    styles.header,
+    scrollTop > 100 ? styles.shadow : " ",
+  ].join(" ");
 
   const list = {
     visible: {
@@ -30,7 +37,7 @@ export default function Nav() {
   };
 
   return (
-    <header className={styles.header}>
+    <header className={headerClassNames}>
       <div className={styles.inner}>
         <div className={styles.logo}>
           <Icon width={60} height={60} />
@@ -45,19 +52,19 @@ export default function Nav() {
           >
             <motion.li variants={item}>
               <span className={styles.number}>01.</span>
-              <a href="#about">{t("about")}</a>
+              <a href="/#about">{t("about")}</a>
             </motion.li>
             <motion.li variants={item}>
               <span className={styles.number}>02.</span>
-              <a href="#experience">{t("experience")}</a>
+              <a href="/#experience">{t("experience")}</a>
             </motion.li>
             <motion.li variants={item}>
               <span className={styles.number}>03.</span>
-              <a href="#work">{t("work")}</a>
+              <a href="/#work">{t("work")}</a>
             </motion.li>
             <motion.li variants={item}>
               <span className={styles.number}>04.</span>
-              <a href="#contact">{t("contact")}</a>
+              <a href="/#contact">{t("contact")}</a>
             </motion.li>
             <motion.li variants={item}>
               <Button link="/resume.pdf" target="_blank">

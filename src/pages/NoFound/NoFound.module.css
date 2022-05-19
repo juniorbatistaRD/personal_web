@@ -1,0 +1,44 @@
+.content{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column
+;}
+
+.section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.header{
+    font-size: 35px;
+    color: var(--lightest-slate);
+    text-align: center;
+    margin: 0px 10px;
+}
+
+.text{
+    color: var(--slate);
+    font-size: 14px;
+    line-height: 1.3;
+    margin-top: 20px;
+    text-align: center;
+    width: 80%;
+}
+
+.icon{
+    width: 80%;
+}
+
+.footer{
+    justify-self: flex-end;
+}
+
+.button{
+    margin-top: 25px;
+    padding: 15px;
+}
+
+
+

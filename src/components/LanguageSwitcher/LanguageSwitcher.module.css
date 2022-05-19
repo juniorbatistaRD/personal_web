@@ -13,6 +13,12 @@
     box-shadow: 0 10px 30px -15px var(--navy-shadow);
 }
 
+.mobileContainer{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
 .language{
     font-family: var(--font-mono);
     color: var(--slate );
