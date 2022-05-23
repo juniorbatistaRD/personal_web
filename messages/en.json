@@ -63,7 +63,11 @@
         "NodeApiDes":"A Node.js api for a social app with endpoints for posting, adding friends, commenting, chatting and more.",
     
         "PersonalWeb":"Personal Web Site",
-        "PersonalWebDes":"The repo for this website."
+        "PersonalWebDes":"The repo for this website.",
+        
+        "WeddingRegistry": "Wedding Registry",
+        "WeddingRegistryDes": "Wedding Registry built with Next.js that connect to a Google Sheet that can be edit to update the items in lhe list."
+
     },
 
     "Contact":{

@@ -8,29 +8,34 @@ export default function OtherWork() {
   const works = [
     {
       name: "Baseball-PHP-Simulator",
-      repo: "https://github.com/juniorbatistaRD/Baseball-PHP-Simulator",
+      repo: "https://github.com/juniorbatistadev/Baseball-PHP-Simulator",
       description: t("BaseballDes"),
       tags: ["PHP", "Simulation", "Math"],
     },
     {
       name: "Quiz-App",
-      repo: "https://github.com/juniorbatistaRD/simple-quiz",
+      repo: "https://github.com/juniorbatistadev/simple-quiz",
       description: t("QuizAppDes"),
       tags: ["Javascript", "Quiz", "Game"],
     },
     {
       name: "Node.js Api",
-      repo: "https://github.com/juniorbatistaRD/api-node",
+      repo: "https://github.com/juniorbatistadev/api-node",
       description: t("NodeApiDes"),
       tags: ["Node.js", "Javascript", "Express", "Mongoose"],
     },
     {
       name: t("PersonalWeb"),
-      link: "#asd",
-      repo: "https://github.com/juniorbatistaRD/personal_web",
-
+      repo: "https://github.com/juniorbatistadev/personal_web",
       description: t("PersonalWebDes"),
       tags: ["Next.js", "Static Website", "Vercel"],
+    },
+    {
+      name: t("WeddingRegistry"),
+      repo: "https://github.com/juniorbatistadev/wedding-web",
+
+      description: t("WeddingRegistryDes"),
+      tags: ["Next.js", "Google Sheets API", "Javascript"],
     },
   ];
 

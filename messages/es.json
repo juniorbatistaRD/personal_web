@@ -62,7 +62,11 @@
         "NodeApiDes":"Una API de Node.js para una aplicación social con endpoints para publicar, agregar amigos, comentar, chatear y más.",
     
         "PersonalWeb":"Web Site Personal",
-        "PersonalWebDes":"El repositorio para este sitio web."
+        "PersonalWebDes":"El repositorio para este sitio web.",
+
+        "WeddingRegistry": "Registro para Regalos de Boda",
+        "WeddingRegistryDes": "Registro para Regalos de Boda que se conecta a una hoja de calculos de Google Sheet que permite editar la lista."
+
     },
 
     "Contact":{
