@@ -46,10 +46,6 @@ export default function MobileMenu() {
     });
   };
 
-  const closeMenu = () => {
-    setIsOpen(false);
-  };
-
   return (
     <div className={styles.container}>
       <div className={styles.topIcon} onClick={handleMenuClick}>
@@ -104,25 +100,25 @@ export default function MobileMenu() {
             >
               <nav>
                 <ul className={styles.menu}>
-                  <li onClick={closeMenu}>
+                  <li onClick={handleMenuClick}>
                     <span className={styles.number}>01.</span>
                     <Link href="/#about">
                       <a>{t("about")}</a>
                     </Link>
                   </li>
-                  <li onClick={closeMenu}>
+                  <li onClick={handleMenuClick}>
                     <span className={styles.number}>02.</span>
                     <Link href="/#experience" o>
                       <a>{t("experience")}</a>
                     </Link>
                   </li>
-                  <li onClick={closeMenu}>
+                  <li onClick={handleMenuClick}>
                     <span className={styles.number}>03.</span>
                     <Link href="/#work">
                       <a>{t("work")}</a>
                     </Link>
                   </li>
-                  <li onClick={closeMenu}>
+                  <li onClick={handleMenuClick}>
                     <span className={styles.number}>04.</span>
                     <Link href="/#contact">
                       <a>{t("contact")}</a>
