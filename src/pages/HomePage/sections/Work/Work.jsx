@@ -19,15 +19,21 @@ export default function Work() {
           description={t("GenteUniDes")}
           tags={["Next.js", "Parse Server", "Formik", "Social Network"]}
           repo="https://github.com/juniorbatistaRD/genteitla"
-          link="https://genteuni-next.vercel.app/"
+          link="https://unikob.com"
           image={genteUniImg.src}
         />
         <FeaturedProject
           name={t("BookHub")}
           description={t("BookHubDes")}
-          tags={["React", "PWA", "Mobile App", "Framer Motion", "Firebase"]}
+          tags={[
+            "React Native",
+            "PWA",
+            "Mobile App",
+            "Framer Motion",
+            "Firebase",
+          ]}
           repo="https://github.com/juniorbatistaRD/bookhub"
-          link="https://play.google.com/store/apps/details?id=com.bookhub.twa&hl=en"
+          link="https://play.google.com/store/apps/details?id=dev.juniorbatista.bookhub&hl=en"
           image={bookhubImg.src}
         />
         <FeaturedProject

@@ -1,92 +1,89 @@
 {
-    "Nav":{
-        "about":"Sobre mi",
-        "experience":"Experiencia",
-        "work":"Proyectos",
-        "contact":"Contactos",
-        "resume":"Curriculum"
-    },
+  "Nav": {
+    "about": "Sobre mi",
+    "experience": "Experiencia",
+    "work": "Proyectos",
+    "contact": "Contactos",
+    "resume": "Curriculum"
+  },
 
-    "Hero":{
-        "name":"Me llamo",
-        "slogan":"Tiro codigo pa' la web.",
-        "summary":"Soy un desarrollador frontend que disfruta el proceso de escribir código de alto nivel. Encuentro el desafío de resolver problemas divertido y gratificante. Me motiva ver un proyecto concretarse y realizar su propósito a la perfección.",
-        "callToAction":"Escribeme"
-    },
+  "Hero": {
+    "name": "Me llamo",
+    "slogan": "Tiro codigo pa' la web.",
+    "summary": "Soy un desarrollador frontend que disfruta el proceso de escribir código de alto nivel. Encuentro el desafío de resolver problemas divertido y gratificante. Me motiva ver un proyecto concretarse y realizar su propósito a la perfección.",
+    "callToAction": "Escribeme"
+  },
 
-    "About":{
-        "about":"Sobre mi",
-        "p1":"¡Hola! Mi nombre es Junior y disfruto crear para la web. He estado interesado en el desarrollo web desde que tenía catorce años cuando usar HTML y CSS se sentía como magia.",
-        "p2":"Para convertirme en el desarrollador que quería ser, me inscribí en el Instituto Tecnologico de las Américas (ITLA), una de las universidades tecnológicas más respetadas de la República Dominicana, para obtener la licenciatura en Desarrollo de Software.",
-        "p3":"Después de eso, tuve la oportunidad de trabajar con varias empresas mientras trabajaba por desarrollador freelancer.",
-        "p4":"Aquí hay algunas tecnologías con las que he estado trabajando recientemente:"
-    },
+  "About": {
+    "about": "Sobre mi",
+    "p1": "¡Hola! Mi nombre es Junior y disfruto crear para la web. He estado interesado en el desarrollo web desde que tenía catorce años cuando usar HTML y CSS se sentía como magia.",
+    "p2": "Para convertirme en el desarrollador que quería ser, me inscribí en el Instituto Tecnologico de las Américas (ITLA), una de las universidades tecnológicas más respetadas de la República Dominicana, para obtener la licenciatura en Desarrollo de Software.",
+    "p3": "Después de eso, tuve la oportunidad de trabajar con varias empresas mientras trabajaba por desarrollador freelancer.",
+    "p4": "Aquí hay algunas tecnologías con las que he estado trabajando recientemente:"
+  },
 
-    "Experience":{
-        "title":"Donde he trabajado",
-        
-        "FrontEndDev":"Desarrolador Web Frontend",
-        "FrontEndDevDates":"Ene 2021 - Abr 2021",
-        "FrontEndDevDes":"Trabajé con un equipo de otro desarrollador y diseñador junto con un gerente de proyecto para crear aplicaciones web modernas para los clientes. Desarrollé las funciones principales de la aplicación, refiné el código y mejoré los procesos, produciendo operaciones más fluidas y mejorando la participación del usuario.",
+  "Experience": {
+    "title": "Donde he trabajado",
 
-        "BackEndTeacher":"Profesor de Desarrollo BackEnd",
-        "BackEndTeacherDates":"Ago 2018 - Dic 2018",
-        "BackEndTeacherDes":"Enseñé dos clases de desarrollo web (Desarrollo Backend con PHP y SQL y Desarrollo Web con ASP.net). Planifiqué el horario de clases, tareas, proyecto final y califiqué a los alumnos.",
-        
-        "WebMaster":"WebMaster",
-        "YWAMSP":"JUCUM San Pedro",
-        "WebMasterDes":"Supervisé la funcionalidad del sitio web en los principales navegadores web y aplicaciones móviles, y aseguré la compatibilidad con los principales sistemas operativos. Investigué las tendencias del mercado para mantenerme al día con las mejores prácticas en SEO, promoción en redes sociales, análisis de búsqueda y alojamiento web."
-    },
+    "FrontEndDev": "Desarrolador Web Frontend",
+    "FrontEndDevDates": "Ene 2021 - Abr 2021",
+    "FrontEndDevDes": "Trabajé con un equipo de otro desarrollador y diseñador junto con un gerente de proyecto para crear aplicaciones web modernas para los clientes. Desarrollé las funciones principales de la aplicación, refiné el código y mejoré los procesos, produciendo operaciones más fluidas y mejorando la participación del usuario.",
 
-    "Work":{
-        "title": "Algunos Proyectos",
+    "BackEndTeacher": "Profesor de Desarrollo BackEnd",
+    "BackEndTeacherDates": "Ago 2018 - Dic 2018",
+    "BackEndTeacherDes": "Enseñé dos clases de desarrollo web (Desarrollo Backend con PHP y SQL y Desarrollo Web con ASP.net). Planifiqué el horario de clases, tareas, proyecto final y califiqué a los alumnos.",
 
-        "GenteUni":"GenteUni - Red Social",
-        "GenteUniDes":"Una red social completamente desarrollada dirigida a estudiantes universitarios en América Latina, la aplicación web incluye un sistema completo de publicación, seguimiento y comentarios. Con muchas otras características como clasificación de escuelas, inicio de sesión social y publicación de trabajos.",
-        
-        "BookHub":"Bookhub - Aplicacion Mobile",
-        "BookHubDes":"BookHub es una aplicación simple y minimalista para realizar un seguimiento de los libros que lee. La aplicación está construida como un PWA y luego se convierte en una aplicación de Android. La aplicación está disponible para descargar en Google Play.",
+    "WebMaster": "WebMaster",
+    "YWAMSP": "JUCUM San Pedro",
+    "WebMasterDes": "Supervisé la funcionalidad del sitio web en los principales navegadores web y aplicaciones móviles, y aseguré la compatibilidad con los principales sistemas operativos. Investigué las tendencias del mercado para mantenerme al día con las mejores prácticas en SEO, promoción en redes sociales, análisis de búsqueda y alojamiento web."
+  },
 
-        "HOH":"Tracker de Casas de Esperanza",
-        "HOHDes":"Una aplicación web para rastrear casas construidas por una ONG llamada Homes of Hope, esto les ayuda a realizar un seguimiento de dónde se construyen las casas para que puedan regresar y hacer un seguimiento con las familias. "
-        
-    },
+  "Work": {
+    "title": "Algunos Proyectos",
 
-    "OtherWork":{
-        "title":"Otros Proyectos",
+    "GenteUni": "Unikob - Red Social",
+    "GenteUniDes": "Una red social completamente desarrollada dirigida a estudiantes universitarios en América Latina, la aplicación web incluye un sistema completo de publicación, seguimiento y comentarios. Con muchas otras características como clasificación de escuelas, inicio de sesión social y publicación de trabajos.",
 
-        "BaseballDes":"Un motor de simulacion de Beisbol hecho con PHP.",
+    "BookHub": "Bookhub - Aplicacion Mobile",
+    "BookHubDes": "BookHub es una aplicación simple y minimalista para realizar un seguimiento de los libros que lee. La aplicación está construida como un PWA y luego se convierte en una aplicación de Android. La aplicación está disponible para descargar en Google Play.",
 
-        "QuizAppDes": "Una aplicación de preguntas que puede recibir una variedad de preguntas y validar las respuestas.",
+    "HOH": "Tracker de Casas de Esperanza",
+    "HOHDes": "Una aplicación web para rastrear casas construidas por una ONG llamada Homes of Hope, esto les ayuda a realizar un seguimiento de dónde se construyen las casas para que puedan regresar y hacer un seguimiento con las familias. "
+  },
 
-        "NodeApiDes":"Una API de Node.js para una aplicación social con endpoints para publicar, agregar amigos, comentar, chatear y más.",
-    
-        "PersonalWeb":"Web Site Personal",
-        "PersonalWebDes":"El repositorio para este sitio web.",
+  "OtherWork": {
+    "title": "Otros Proyectos",
 
-        "WeddingRegistry": "Registro para Regalos de Boda",
-        "WeddingRegistryDes": "Registro para Regalos de Boda que se conecta a una hoja de calculos de Google Sheet que permite editar la lista."
+    "BaseballDes": "Un motor de simulacion de Beisbol hecho con PHP.",
 
-    },
+    "QuizAppDes": "Una aplicación de preguntas que puede recibir una variedad de preguntas y validar las respuestas.",
 
-    "Contact":{
-        "title":"¿Que sigue?",
+    "NodeApiDes": "Una API de Node.js para una aplicación social con endpoints para publicar, agregar amigos, comentar, chatear y más.",
 
-        "GetInTouch":"Escribeme",
+    "PersonalWeb": "Web Site Personal",
+    "PersonalWebDes": "El repositorio para este sitio web.",
 
-        "text":"Siempre estoy buscando nuevas oportunidades, por lo que mi bandeja de entrada siempre está abierta. Incluso si solo tienes una pregunta o solo quieres saludar, adelante. ¡Me aseguraré de responderte!",
-        
-        "button":"Enviar correo a juniorbatistadev@gmail.com"
-    },
+    "WeddingRegistry": "Registro para Regalos de Boda",
+    "WeddingRegistryDes": "Registro para Regalos de Boda que se conecta a una hoja de calculos de Google Sheet que permite editar la lista."
+  },
 
-    "NoFound":{
-        "header":"¡Oh no! ¡Rompiste el Internet!",
-        "text":"No pudimos encontrar lo que busca. Intenta usando el menu."
-    },
+  "Contact": {
+    "title": "¿Que sigue?",
 
-    "common":{
-        "built":"Hecho por Junior Batista",
-        "goHome":"Ir al Inicio"
-    }
+    "GetInTouch": "Escribeme",
 
+    "text": "Siempre estoy buscando nuevas oportunidades, por lo que mi bandeja de entrada siempre está abierta. Incluso si solo tienes una pregunta o solo quieres saludar, adelante. ¡Me aseguraré de responderte!",
+
+    "button": "Enviar correo a juniorbatistadev@gmail.com"
+  },
+
+  "NoFound": {
+    "header": "¡Oh no! ¡Rompiste el Internet!",
+    "text": "No pudimos encontrar lo que busca. Intenta usando el menu."
+  },
+
+  "common": {
+    "built": "Hecho por Junior Batista",
+    "goHome": "Ir al Inicio"
+  }
 }
