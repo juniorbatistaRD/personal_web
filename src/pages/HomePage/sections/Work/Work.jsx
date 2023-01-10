@@ -18,7 +18,7 @@ export default function Work() {
           name={t("GenteUni")}
           description={t("GenteUniDes")}
           tags={["Next.js", "Parse Server", "Formik", "Social Network"]}
-          repo="https://github.com/juniorbatistaRD/genteitla"
+          repo="https://github.com/juniorbatistadev/genteuni_web"
           link="https://unikob.com"
           image={genteUniImg.src}
         />
@@ -32,7 +32,7 @@ export default function Work() {
             "Framer Motion",
             "Firebase",
           ]}
-          repo="https://github.com/juniorbatistaRD/bookhub"
+          repo="https://github.com/juniorbatistadev/bookhub-app"
           link="https://play.google.com/store/apps/details?id=dev.juniorbatista.bookhub&hl=en"
           image={bookhubImg.src}
         />

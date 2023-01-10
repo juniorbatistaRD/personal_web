@@ -38,7 +38,7 @@ export default function Experience() {
               name: t("YWAMSP"),
               website: "https://ywamsanpedro.org",
             }}
-            dates="2017"
+            dates="Sept 2016 - Dec 2022"
             description={t("WebMasterDes")}
           />
         </div>
