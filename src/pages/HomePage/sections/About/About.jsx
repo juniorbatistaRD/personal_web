@@ -1,5 +1,4 @@
-import SectionTitle from "@components/SectionTitle/SectionTitle";
-import Image from "next/image";
+import SectionTitle from "@components/SectionTitle/SectionTitle";import Image from "next/image";
 import styles from "./About.module.css";
 import image from "@assets/images/profile.jpg";
 import { motion } from "framer-motion";
@@ -25,7 +24,7 @@ export default function About() {
             <li>TypeScript</li>
             <li>React</li>
             <li>Next.js</li>
-            <li>Node.js</li>
+            <li>Node.js/Express</li>
             <li>WordPress</li>
           </ul>
         </div>

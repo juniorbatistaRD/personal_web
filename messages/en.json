@@ -1,5 +1,4 @@
-{
-  "Nav": {
+{  "Nav": {
     "about": "About",
     "experience": "Experience",
     "work": "Work",
@@ -10,30 +9,34 @@
   "Hero": {
     "name": "My name is",
     "slogan": "I build things for the web.",
-    "summary": "I'm a frontend developer that enjoys the process of writing high-standard code. I find the challenge of problem-solving fun and rewarding. It motivates me to see a project come together and perform its purpose perfectly.",
+    "summary": "I'm an experienced full stack developer with a frontend focus, backed by a strong track record of crafting robust and elegant code. Passionate, dedicated, and motivated, I'm ready to take on the next big coding adventure.",
     "callToAction": "Get in touch"
   },
 
   "About": {
     "about": "About me",
-    "p1": "Hello! My name is Junior and I enjoy building cool stuff for the web. Since I was fourteen, I've been interested in web development when using HTML & CSS felt like magic!",
-    "p2": "To become the developer I wanted to be, I enrolled in the Institute Of Technology Of the Americas (ITLA) for a degree in Software Development.",
-    "p3": "After that, I had the chance to work with multiple companies while being a freelancer.",
+    "p1": "I am Junior, a dedicated web developer with a strong enthusiasm for crafting exceptional online experiences. My journey in web development began at the young age of fourteen when I was captivated by the enchanting world of HTML and CSS.",
+    "p2": "To pursue my passion and developed my skills, I pursued a degree in Software Development from the Institute of Technology of the Americas (ITLA). ",
+    "p3": "Since then, my career has been marked by enriching experiences, collaborating with various companies as both an employee and a freelancer.",
     "p4": "Here are a few technologies I’ve been working with recently:"
   },
 
   "Experience": {
     "title": "Where I've Worked",
 
-    "FrontEndDev": "Frontend Web Developer",
-    "FrontEndDevDates": "Dec 2020 - Apr 2021",
+    "LeadDev": "Senior Software Engineer",
+    "LeadDevDates": "Dec 2022 - Present",
+    "LeadDevDes": "• Led the design and development of multiple enterprise-level dashboard applications for third party integrations, bringing thousands of new leads every month using the latest technologies of Node.js, Typescript, NestJS, React, Azure, Key Vault. •Designed and implemented scalable APIs and background workers to keep clinical data synchronized between multiple systems using Typescript, NestJS, Azure Event Grid and Azure Container App, handling thousands of data transfers daily.",
+
+    "FrontEndDev": "Frontend Engineer",
+    "FrontEndDevDates": "Sep 2020 - Apr 2021",
     "FrontEndDevDes": "Worked with a team of other developers and designers and a project manager to create modern web apps for clients. Developed the core features of the apps, refined code, and improved processes, producing smoother operations and enhancing user engagement.",
 
-    "BackEndTeacher": "Back End Development Teacher",
-    "BackEndTeacherDates": "Aug 2018 - Jan 2019",
+    "BackEndTeacher": "Back End Development Tutor",
+    "BackEndTeacherDates": "Aug 2018 - May 2019",
     "BackEndTeacherDes": "Taught two web development classes ( Backend Development with PHP and SQL and Web Development with ASP.net). I planned the class schedule, homework and final project and graded the students.",
 
-    "WebMaster": "WebMaster",
+    "WebMaster": "Web Developer",
     "YWAMSP": "YWAM San Pedro",
     "WebMasterDes": "Monitored website functionality across leading web browsers and mobile applications, and ensured compatibility with major operating systems. Researched market trends to keep up with best practices in SEO, social media promotion, search analytics, and web hosting."
   },

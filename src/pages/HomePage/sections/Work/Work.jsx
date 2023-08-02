@@ -1,5 +1,4 @@
-import FeaturedProject from "@components/FeaturedProject/FeaturedProject";
-import SectionTitle from "@components/SectionTitle/SectionTitle";
+import FeaturedProject from "@components/FeaturedProject/FeaturedProject";import SectionTitle from "@components/SectionTitle/SectionTitle";
 import styles from "./Work.module.css";
 import genteUniImg from "@assets/images/genteuni.png";
 import hohImg from "@assets/images/hoh.jpg";
@@ -18,7 +17,7 @@ export default function Work() {
           name={t("GenteUni")}
           description={t("GenteUniDes")}
           tags={["Next.js", "Parse Server", "Formik", "Social Network"]}
-          repo="https://github.com/juniorbatistadev/genteuni_web"
+          repo="https://github.com/juniorbatistadev/Unikob-public-version"
           link="https://unikob.com"
           image={genteUniImg.src}
         />
