@@ -1,6 +1,6 @@
 import SectionTitle from "@components/SectionTitle/SectionTitle";import Image from "next/image";
 import styles from "./About.module.css";
-import image from "@assets/images/profile.jpg";
+import image from "@assets/images/profile.jpeg";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 
